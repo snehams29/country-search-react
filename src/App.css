@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+.main-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto ;
+
+  background-color: #639fff;
+ 
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+#title-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Open Sans';
+  font-weight: 500;
+  margin-bottom: 50px;
+  
+}
+
+.entry-container{
+  margin-bottom: 50px;
+}
+
+#entry-box{
+  width: 200px;
+  height: 30px;
+
+  background: #F6F6F6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  word-wrap: break-word;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  border: none;
+  /* identical to box height */
+
+  outline: none;
+  padding-left: 10px;
+
+  color: #333333;
+  
+  
+  opacity: 0.7;
+}
+
+#capital-text{
+  display: flex;
+  justify-content: center;
+}
+#country-name{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+#population-text{
+  display: flex;
+  justify-content: center;
+}
+
+
+#language-text{
+  display: flex;
+  justify-content: center;
+}
+
+#region-text{
+  display: flex;
+  justify-content: center;
+}
