@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="main-container">
       
-      <h1 id='title-text'>Country Search Engine</h1>
+      <h1 id='title-text'>Country Search</h1>
      
       <div className='entry-container'>
         <form onSubmit={handleSearch}>
